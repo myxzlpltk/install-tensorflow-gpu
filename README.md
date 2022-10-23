@@ -13,3 +13,14 @@ conda install -c conda-forge jupyter notebook pandas scikit-learn scikit-image m
 conda install -c pytorch -c conda-forge pytorch torchvision torchaudio
 pip install tensorflow-gpu
 ```
+
+# Common commands
+1. Install conda env
+```bash
+conda env create -f environment.yml
+```
+
+2. Update conda env
+```bash
+conda env update --file environment.yml --prune
+```

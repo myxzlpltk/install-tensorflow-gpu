@@ -1,0 +1,31 @@
+name: tensorflow
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.10
+  - cudatoolkit=11.6
+  - cudnn
+  - jupyter
+  - notebook
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - numpy
+  - opencv
+  - pillow
+  - pymongo
+  - bson
+  - xmltodict
+  - tqdm
+  - scikit-learn-intelex
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - tensorflow
+    - keras
