@@ -2,11 +2,12 @@ name: tensorflow
 channels:
   - conda-forge
   - pytorch
+  - nvidia
   - anaconda
   - defaults
 dependencies:
   - python=3.10
-  - cudatoolkit=11.6
+  - cudatoolkit
   - cudnn
   - jupyter
   - notebook
@@ -25,6 +26,7 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
+  - pytorch-cuda=11.7
   - pip
   - pip:
     - tensorflow
